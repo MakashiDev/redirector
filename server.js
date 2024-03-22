@@ -2,7 +2,7 @@ const express = require("express");
 const sqlite3 = require("sqlite3").verbose();
 const jwt = require("jsonwebtoken");
 const JWT_SECRET =
-  "this_is-a_super_secret-key|--------|@#$%^&*(dfhbasnkyhsdnfasfsdf";
+  "PUT_YOUR_SECRET_HERE";
 const cookieParser = require("cookie-parser");
 
 const app = express();
